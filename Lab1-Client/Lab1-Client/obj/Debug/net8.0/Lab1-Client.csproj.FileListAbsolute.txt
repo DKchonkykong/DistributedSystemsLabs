@@ -1,0 +1,15 @@
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\bin\Debug\net8.0\Lab1-Client.exe
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\bin\Debug\net8.0\Lab1-Client.deps.json
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\bin\Debug\net8.0\Lab1-Client.runtimeconfig.json
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\bin\Debug\net8.0\Lab1-Client.dll
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\bin\Debug\net8.0\Lab1-Client.pdb
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.AssemblyInfoInputs.cache
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.AssemblyInfo.cs
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.csproj.CoreCompileInputs.cache
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.sourcelink.json
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.dll
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\refint\Lab1-Client.dll
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.pdb
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\Lab1-Client.genruntimeconfig.cache
+C:\Users\806395\OneDrive - hull.ac.uk\GitHub\DistributedSystemsLabs\Lab1-Client\Lab1-Client\obj\Debug\net8.0\ref\Lab1-Client.dll

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\806395\\source\\repos\\Lab1-Server\\",
+  "WorkspaceRootPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33436C4E-FB67-4894-B7EB-53B9D829EB83}|Lab1-Server\\Lab1-Server.csproj|c:\\users\\806395\\source\\repos\\lab1-server\\lab1-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33436C4E-FB67-4894-B7EB-53B9D829EB83}|Lab1-Server\\Lab1-Server.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab1-server\\lab1-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33436C4E-FB67-4894-B7EB-53B9D829EB83}|Lab1-Server\\Lab1-Server.csproj|solutionrelative:lab1-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,18 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\Program.cs",
               "RelativeDocumentMoniker": "Lab1-Server\\Program.cs",
-              "ToolTip": "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\Program.cs",
+              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\Program.cs",
               "RelativeToolTip": "Lab1-Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T09:32:36.501Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

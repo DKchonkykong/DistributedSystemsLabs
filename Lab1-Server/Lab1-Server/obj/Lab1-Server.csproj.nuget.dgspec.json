@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj": {}
+    "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj": {
+    "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj",
+        "projectUniqueName": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj",
         "projectName": "Lab1-Server",
-        "projectPath": "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj",
+        "projectPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\Lab1-Server.csproj",
         "packagesPath": "C:\\Users\\806395\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\806395\\source\\repos\\Lab1-Server\\Lab1-Server\\obj\\",
+        "outputPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab1-Server\\Lab1-Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
