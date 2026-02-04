@@ -2,7 +2,7 @@
 
 
 
-[← Lab 9](lab-1.md) | [← Back to Main README](README.md) | [Next: Lab FinalCW →](lab-3.md)
+[← Lab 9](lab-9.md) | [← Back to Main README](README.md) | [Next: Lab FinalCW →](lab-FinalCW.md)
 
 
 
@@ -25,5 +25,5 @@ ADD REFLECTION OF THE LAB HERE
 **Navigation:**
 
 * [Main README](README.md)
-* [Lab 9](lab-1.md)
-* [Lab FinalCW](lab-3.md)
+* [Lab 9](lab-9.md)
+* [Lab FinalCW](lab-FinalCW.md)
