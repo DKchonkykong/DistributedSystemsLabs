@@ -20,4 +20,4 @@ Complete documentation for each of the Distributed Systems labs and final course
 
 | Previous | Current | Next |
 |----------|---------|------|
-| - | **Main README** | [Lab-1 →](Lab-1.md) |
+| - | **Main README** | [Lab-1 →](lab-1.md) |
