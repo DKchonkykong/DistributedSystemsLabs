@@ -1,0 +1,19 @@
+#  600089_A25_T2: Distributed Systems Programming
+
+This is the Distributed Systems Programming labs.
+
+### 📋 Lab Documentation
+Complete documentation for each of the Distributed Systems labs:
+
+1. **[Lab-1](Lab-1.md)** - Lab 1 documentation
+2. **[Lab-2](Lab-2.md)** - Lab 2 documentation
+3. **[Lab-3](Lab-3.md)** - Lab 3 documentation
+4. **[Lab-4](Lab-4.md)** - Lab 4 documentation
+5. **[Lab-5](Lab-5.md)** - Lab 5 documentation
+6. **[Lab-6](Lab-6.md)** - Lab 6 documentation
+7. **[Lab-7](Lab-7.md)** - Lab 7 documentation
+## Quick Navigation
+
+| Previous | Current | Next |
+|----------|---------|------|
+| - | **Main README** | [Lab-1 →](Lab-1.md) |
