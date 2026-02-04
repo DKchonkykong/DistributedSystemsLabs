@@ -2,7 +2,7 @@
 
 
 
-[← Lab 7](lab-1.md) | [← Back to Main README](README.md) | [Next: Lab 9 →](lab-3.md)
+[← Lab 7](lab-7.md) | [← Back to Main README](README.md) | [Next: Lab 9 →](lab-9.md)
 
 
 
@@ -25,5 +25,5 @@ ADD REFLECTION OF THE LAB HERE
 **Navigation:**
 
 * [Main README](README.md)
-* [Lab 7](lab-1.md)
-* [Lab 9](lab-3.md)
+* [Lab 7](lab-7.md)
+* [Lab 9](lab-9.md)
