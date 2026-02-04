@@ -1,7 +1,7 @@
 # Distributed Systems: Client & Server Recap
 
 
-[← Back to Main README](README.md) | [Next: Lab 2 →](Lab-2.md)
+[← Lab 1](lab-1.md) | [← Back to Main README](README.md) | [Next: Lab 2 →](lab-2.md)
 
 
 ## SMART Objectives
@@ -25,5 +25,6 @@ I did have some issues most notably having the translator code actually have the
 
 **Navigation:**
 - [Main README](README.md)
-- [Main Quest 2](Lab-2.md)
+- [Lab 2](lab-1.md)
+- [Lab 3](lab-2.md)
 
