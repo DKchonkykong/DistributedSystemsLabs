@@ -2,7 +2,7 @@
 
 
 
-[← Lab 10](lab-1.md) | [← Back to Main README](README.md) | 
+[← Lab 10](lab-10.md) | [← Back to Main README](README.md) | 
 
 
 
@@ -25,7 +25,7 @@ ADD REFLECTION OF THE LAB HERE
 **Navigation:**
 
 * [Main README](README.md)
-* [Lab 10](lab-1.md)
+* [Lab 10](lab-10.md)
 
 
 
