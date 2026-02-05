@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace PipesAndFilters.Messages
 {
-    internal class Messages : IMessage
+    public class Messages : IMessage
     {
         public Dictionary<string, string> Headers { get; set; }
         public string Body { get; set; }
 
-        //constructor initiates headers dictionary
+        //constructor initiates headers dictionary now actually initialized
         public Messages()
         {
-            Dictionary<string, string> headers = new Dictionary<string, string>();
+            Headers = new Dictionary<string, string>();
         }
     }
 }

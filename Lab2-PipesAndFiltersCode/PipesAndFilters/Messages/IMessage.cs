@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PipesAndFilters.Messages
 {
-    internal interface IMessage
+    public interface IMessage
     {
         public Dictionary<string, string> Headers { get; set; }
         public string Body { get; set; }

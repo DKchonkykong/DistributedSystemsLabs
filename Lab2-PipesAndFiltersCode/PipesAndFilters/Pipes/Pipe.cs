@@ -11,7 +11,7 @@ namespace PipesAndFilters.Pipes
     internal class Pipe : IPipe
     {
         //constructor
-        private Pipe()
+        internal Pipe()
         {
             Filters = new List<IFilter>();
             Messages = new List<IMessage>();

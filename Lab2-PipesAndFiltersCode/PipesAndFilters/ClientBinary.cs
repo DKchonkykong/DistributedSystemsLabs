@@ -1,27 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 using PipesAndFilters.Messages;
 
 namespace PipesAndFilters
 {
-    class Client
+    //for managing binary compared to regular client which handles bytes
+    class ClientBinary
     {
         int userId = 1;
+
         public void RequestHello(string messageToSend)
         {
             IMessage message = new PipesAndFilters.Messages.Messages();
 
-            // Add the user ID header and request format header and the same for endpoint
             message.Headers.Add("User", userId.ToString());
+            message.Headers.Add("RequestFormat", "Binary");
             message.Headers.Add("Endpoint", "Hello");
-            // Convert the message to a byte array and then turn the byte array into a string of byte values delimited by dashes
-            message.Headers.Add("RequestFormat", "Bytes");
+
             byte[] bytes = Encoding.ASCII.GetBytes(messageToSend);
             string requestBody = "";
             for (int i = 0; i < bytes.Length; i++)
             {
-                requestBody += bytes[i].ToString();
+                requestBody += Convert.ToString(bytes[i], 2).PadLeft(8, '0');
                 if (i + 1 < bytes.Length)
                 {
                     requestBody += "-";
@@ -29,23 +29,19 @@ namespace PipesAndFilters
             }
             message.Body = requestBody;
 
-            // Send the message and get the response back
             IMessage response = ServerEnvironment.SendRequest(message);
 
-            // Get the timestamp from the response
             response.Headers.TryGetValue("Timestamp", out string timestamp);
 
-            // Turn the delimited string of bytes to a byte array and then to an ASCII string
             string responseBody = "";
-            string[] byteStrings = response.Body.Split('-');
-            bytes = new byte[byteStrings.Length];
-            for (int i = 0; i < byteStrings.Length; i++)
+            string[] binaryStrings = response.Body.Split('-');
+            bytes = new byte[binaryStrings.Length];
+            for (int i = 0; i < binaryStrings.Length; i++)
             {
-                bytes[i] = byte.Parse(byteStrings[i]);
+                bytes[i] = Convert.ToByte(binaryStrings[i], 2);
             }
             responseBody = Encoding.ASCII.GetString(bytes);
 
-            // Output the response to the Console
             Console.WriteLine($"At {timestamp} Response was: {responseBody}");
         }
     }

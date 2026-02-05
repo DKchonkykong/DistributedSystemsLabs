@@ -1,0 +1,15 @@
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.AssemblyInfoInputs.cache
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.AssemblyInfo.cs
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.csproj.CoreCompileInputs.cache
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.sourcelink.json
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\bin\Debug\net8.0\PipesAndFilters.exe
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\bin\Debug\net8.0\PipesAndFilters.deps.json
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\bin\Debug\net8.0\PipesAndFilters.runtimeconfig.json
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\bin\Debug\net8.0\PipesAndFilters.dll
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\bin\Debug\net8.0\PipesAndFilters.pdb
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.dll
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\refint\PipesAndFilters.dll
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.pdb
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\PipesAndFilters.genruntimeconfig.cache
+C:\Users\ady\Documents\GitHub\DistributedSystemsLabs\Lab2-PipesAndFiltersCode\PipesAndFilters\obj\Debug\net8.0\ref\PipesAndFilters.dll

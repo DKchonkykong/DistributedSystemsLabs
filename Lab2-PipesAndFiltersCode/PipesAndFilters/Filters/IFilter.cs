@@ -9,6 +9,6 @@ namespace PipesAndFilters.Filters
 {
     internal interface IFilter
     {
-        public IFilter Run(IFilter filter);
+        IMessage Run(IMessage message);
     }
 }
