@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ady\\Downloads\\PipesAndFiltersLab\\PipesAndFiltersLab\\PipesAndFilters\\PipesAndFilters\\PipesAndFilters.csproj": {}
+    "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab2-PipesAndFiltersCode\\PipesAndFilters\\PipesAndFilters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ady\\Downloads\\PipesAndFiltersLab\\PipesAndFiltersLab\\PipesAndFilters\\PipesAndFilters\\PipesAndFilters.csproj": {
+    "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab2-PipesAndFiltersCode\\PipesAndFilters\\PipesAndFilters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ady\\Downloads\\PipesAndFiltersLab\\PipesAndFiltersLab\\PipesAndFilters\\PipesAndFilters\\PipesAndFilters.csproj",
+        "projectUniqueName": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab2-PipesAndFiltersCode\\PipesAndFilters\\PipesAndFilters.csproj",
         "projectName": "PipesAndFilters",
-        "projectPath": "C:\\Users\\ady\\Downloads\\PipesAndFiltersLab\\PipesAndFiltersLab\\PipesAndFilters\\PipesAndFilters\\PipesAndFilters.csproj",
-        "packagesPath": "C:\\Users\\ady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ady\\Downloads\\PipesAndFiltersLab\\PipesAndFiltersLab\\PipesAndFilters\\PipesAndFilters\\obj\\",
+        "projectPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab2-PipesAndFiltersCode\\PipesAndFilters\\PipesAndFilters.csproj",
+        "packagesPath": "C:\\Users\\806395\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab2-PipesAndFiltersCode\\PipesAndFilters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ady\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\806395\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
