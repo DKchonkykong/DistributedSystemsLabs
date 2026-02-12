@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C81CB8-3FF9-4B24-85E6-E33C1C63CD70}|AsyncDominoes\\AsyncDominoes.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab3-threadscode\\asyncdominoes\\asyncdominoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C81CB8-3FF9-4B24-85E6-E33C1C63CD70}|AsyncDominoes\\AsyncDominoes.csproj|solutionrelative:asyncdominoes\\asyncdominoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151AA6E9-7F67-4C66-8F00-A8C6A87D6B8B}|ThreadVsThreadpool\\ThreadVsThreadpool.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab3-threadscode\\threadvsthreadpool\\threadvsthreadpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151AA6E9-7F67-4C66-8F00-A8C6A87D6B8B}|ThreadVsThreadpool\\ThreadVsThreadpool.csproj|solutionrelative:threadvsthreadpool\\threadvsthreadpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AsyncDominoes.cs",
+              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\AsyncDominoes\\AsyncDominoes.cs",
+              "RelativeDocumentMoniker": "AsyncDominoes\\AsyncDominoes.cs",
+              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\AsyncDominoes\\AsyncDominoes.cs",
+              "RelativeToolTip": "AsyncDominoes\\AsyncDominoes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T09:19:34.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThreadVsThreadpool.cs",
+              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\ThreadVsThreadpool\\ThreadVsThreadpool.cs",
+              "RelativeDocumentMoniker": "ThreadVsThreadpool\\ThreadVsThreadpool.cs",
+              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\ThreadVsThreadpool\\ThreadVsThreadpool.cs",
+              "RelativeToolTip": "ThreadVsThreadpool\\ThreadVsThreadpool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T09:14:06.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
