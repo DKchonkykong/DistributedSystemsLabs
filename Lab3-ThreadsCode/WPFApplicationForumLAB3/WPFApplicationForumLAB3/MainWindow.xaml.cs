@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace WPFApplicationForumLAB3
 {
@@ -22,13 +23,18 @@ namespace WPFApplicationForumLAB3
             InitializeComponent();
             primeNumbers = new List<int>();
         }
+        //isn't responding??
+        //tried removing one of the lines
+        //need to find out why this is why find prime numbers isn't working will do this later 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           FindPrimeNumbers(20000);
-            outputTextBox.Text = primeNumbers[9999].ToString();
+            ParameterizedThreadStart ts = new ParameterizedThreadStart(FindPrimeNumbers);
+            Thread t = new Thread(ts);
+            t.Start(20000);
         }
-        private void FindPrimeNumbers(int numberOfPrimesToFind)
+        private void FindPrimeNumbers(object param)
         {
+            int numberOfPrimesToFind = (int)param;
             int primeCount = 0; int currentPossiblePrime = 1;
             while (primeCount < numberOfPrimesToFind)
             {
