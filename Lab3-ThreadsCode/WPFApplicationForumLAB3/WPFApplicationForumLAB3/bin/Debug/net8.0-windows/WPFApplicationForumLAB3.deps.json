@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WPFApplicationForumLAB3/1.0.0": {
+        "runtime": {
+          "WPFApplicationForumLAB3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFApplicationForumLAB3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
