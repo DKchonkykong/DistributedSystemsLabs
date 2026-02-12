@@ -14,8 +14,8 @@ ADD OBJECTIVES OF THE LAB HERE
 
 ## Completed Tasks
 
-ADD TASKS COMPLETED IN THE LAB HERE
-
+![alt text](image.png)
+this is how it looks with single threading it is quite slow to calculate
 ## Reflection
 
 ADD REFLECTION OF THE LAB HERE
