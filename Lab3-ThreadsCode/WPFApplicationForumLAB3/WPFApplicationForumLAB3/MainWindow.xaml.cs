@@ -17,7 +17,6 @@ namespace WPFApplicationForumLAB3
     public partial class MainWindow : Window
     {
         public List<int> primeNumbers;
-        public TextBox outputTextBox;
         public MainWindow()
         {
             InitializeComponent();
@@ -25,7 +24,7 @@ namespace WPFApplicationForumLAB3
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            FindPrimeNumbers(20000);
+           FindPrimeNumbers(20000);
             outputTextBox.Text = primeNumbers[9999].ToString();
         }
         private void FindPrimeNumbers(int numberOfPrimesToFind)

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab3-threadscode\\wpfapplicationforumlab3\\wpfapplicationforumlab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|solutionrelative:wpfapplicationforumlab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab3-threadscode\\wpfapplicationforumlab3\\wpfapplicationforumlab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|solutionrelative:wpfapplicationforumlab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab3-threadscode\\wpfapplicationforumlab3\\wpfapplicationforumlab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|solutionrelative:wpfapplicationforumlab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4692428-FC7D-44A2-8E26-B3DFBA35132B}|WPFApplicationForumLAB3\\WPFApplicationForumLAB3.csproj|c:\\users\\806395\\onedrive - hull.ac.uk\\github\\distributedsystemslabs\\lab3-threadscode\\wpfapplicationforumlab3\\wpfapplicationforumlab3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFApplicationForumLAB3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml",
+              "RelativeToolTip": "WPFApplicationForumLAB3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T09:45:29.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApplicationForumLAB3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFApplicationForumLAB3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T09:45:29.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -47,31 +72,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T10:07:45.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPFApplicationForumLAB3\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml",
-              "RelativeToolTip": "WPFApplicationForumLAB3\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-12T09:45:29.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPFApplicationForumLAB3\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\806395\\OneDrive - hull.ac.uk\\GitHub\\DistributedSystemsLabs\\Lab3-ThreadsCode\\WPFApplicationForumLAB3\\WPFApplicationForumLAB3\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPFApplicationForumLAB3\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAjwCUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T09:45:29.379Z",
               "EditorCaption": ""
             },
             {
