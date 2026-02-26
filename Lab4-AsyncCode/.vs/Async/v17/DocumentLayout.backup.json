@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBA563B8-BE32-4CA9-91B3-CBD47197FB97}|Async\\Client.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab4-asynccode\\async\\clientbehaviours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA563B8-BE32-4CA9-91B3-CBD47197FB97}|Async\\Client.csproj|solutionrelative:async\\clientbehaviours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBA563B8-BE32-4CA9-91B3-CBD47197FB97}|Async\\Client.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab4-asynccode\\async\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBA563B8-BE32-4CA9-91B3-CBD47197FB97}|Async\\Client.csproj|solutionrelative:async\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA563B8-BE32-4CA9-91B3-CBD47197FB97}|Async\\Client.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab4-asynccode\\async\\clientbehaviours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA563B8-BE32-4CA9-91B3-CBD47197FB97}|Async\\Client.csproj|solutionrelative:async\\clientbehaviours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{564DE714-D63F-4073-BDBC-196081B0FC46}|Server\\Server.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab4-asynccode\\server\\serverbehaviours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Server\\ServerBehaviours.cs",
               "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Server\\ServerBehaviours.cs",
               "RelativeToolTip": "Server\\ServerBehaviours.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAqwG8AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAiwHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:29:37.599Z",
               "EditorCaption": ""
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "Server\\EntryPoint.cs",
               "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Server\\EntryPoint.cs",
               "RelativeToolTip": "Server\\EntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:17:57.622Z",
               "EditorCaption": ""
@@ -65,38 +65,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Client",
+              "Title": "Client.csproj",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Async\\Client.csproj",
               "RelativeDocumentMoniker": "Async\\Client.csproj",
               "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Async\\Client.csproj",
               "RelativeToolTip": "Async\\Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-26T14:17:54.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T14:17:54.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EntryPoint.cs",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Async\\EntryPoint.cs",
               "RelativeDocumentMoniker": "Async\\EntryPoint.cs",
               "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Async\\EntryPoint.cs",
               "RelativeToolTip": "Async\\EntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:10:07.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClientBehaviours.cs",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Async\\ClientBehaviours.cs",
               "RelativeDocumentMoniker": "Async\\ClientBehaviours.cs",
               "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab4-AsyncCode\\Async\\ClientBehaviours.cs",
               "RelativeToolTip": "Async\\ClientBehaviours.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:00:00.329Z",
               "EditorCaption": ""

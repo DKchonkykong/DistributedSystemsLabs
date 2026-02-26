@@ -25,18 +25,31 @@ namespace Client
             }
         }
 
+        //helpers 
+
+        private static void ReadExactly(NetworkStream stream, byte[] buffer, int count)
+        {
+            int offset = 0;
+            while (offset < count)
+            {
+                int bytesRead = stream.Read(buffer, offset, count - offset);
+                if (bytesRead == 0)
+                    throw new Exception("Connection closed by server.");
+                offset += bytesRead;
+            }
+        }
+
+        //changed it should be working now
         public static void RetrieveResponse(NetworkStream nStream)
         {
-            // The first part of the response is an integer which identifies how many bytes are in the proceeding message
             byte[] responseLengthBytes = new byte[4];
-            nStream.Read(responseLengthBytes, 0, 4);
-            int responseLength = BitConverter.ToInt32(responseLengthBytes);
+            ReadExactly(nStream, responseLengthBytes, 4);
+            int responseLength = BitConverter.ToInt32(responseLengthBytes, 0);
 
-            // The second part of the response is the returned message. We know the length of this message as above
             byte[] responseBytes = new byte[responseLength];
-            nStream.Read(responseBytes, 0, responseLength);
-            string response = Encoding.ASCII.GetString(responseBytes);
+            ReadExactly(nStream, responseBytes, responseLength);
 
+            string response = Encoding.ASCII.GetString(responseBytes);
             Console.WriteLine(response);
         }
 

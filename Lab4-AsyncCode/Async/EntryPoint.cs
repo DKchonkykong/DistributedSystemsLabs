@@ -5,7 +5,7 @@ using ClientBehaviours = Client.ClientBehaviours;
 
 // Add code here to send requests
 
-Console.WriteLine("Enter endpoint (e.g. /ping), or blank to exit:");
+Console.WriteLine("Enter endpoint (e.g. TaskOne), or blank to exit:");
 
 while (true)
 {
