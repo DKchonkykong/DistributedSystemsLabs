@@ -8,7 +8,7 @@ namespace Client
 {
     class ClientBehaviours
     {
-        public static void SendRequest(string message, string endpoint)
+        public static async Task SendRequest(string message, string endpoint)
         {
             // The use of the using blocks in this method ensure that the resources are disposed when no longer required
             using (TcpClient tcpClient = new TcpClient())
@@ -18,7 +18,7 @@ namespace Client
                 using (NetworkStream nStream = tcpClient.GetStream())
                 {
                     byte[] request = SerializeRequest(message, endpoint);
-                    nStream.Write(request, 0, request.Length);
+                    await nStream.WriteAsync(request, 0, request.Length);
 
                     RetrieveResponse(nStream);
                 }
@@ -27,12 +27,24 @@ namespace Client
 
         //helpers 
 
-        private static void ReadExactly(NetworkStream stream, byte[] buffer, int count)
+        //private static void ReadExactly(NetworkStream stream, byte[] buffer, int count)
+        //{
+        //    int offset = 0;
+        //    while (offset < count)
+        //    {
+        //        int bytesRead = stream.Read(buffer, offset, count - offset);
+        //        if (bytesRead == 0)
+        //            throw new Exception("Connection closed by server.");
+        //        offset += bytesRead;
+        //    }
+        //}
+
+        private static async Task ReadExactlyAsync(NetworkStream stream, byte[] buffer, int count)
         {
             int offset = 0;
             while (offset < count)
             {
-                int bytesRead = stream.Read(buffer, offset, count - offset);
+                int bytesRead = await stream.ReadAsync(buffer, offset, count - offset);
                 if (bytesRead == 0)
                     throw new Exception("Connection closed by server.");
                 offset += bytesRead;
@@ -40,14 +52,14 @@ namespace Client
         }
 
         //changed it should be working now
-        public static void RetrieveResponse(NetworkStream nStream)
+        public static async Task RetrieveResponse(NetworkStream nStream)
         {
             byte[] responseLengthBytes = new byte[4];
-            ReadExactly(nStream, responseLengthBytes, 4);
+            await ReadExactlyAsync(nStream, responseLengthBytes, 4);
             int responseLength = BitConverter.ToInt32(responseLengthBytes, 0);
 
             byte[] responseBytes = new byte[responseLength];
-            ReadExactly(nStream, responseBytes, responseLength);
+            await ReadExactlyAsync(nStream, responseBytes, responseLength);
 
             string response = Encoding.ASCII.GetString(responseBytes);
             Console.WriteLine(response);
