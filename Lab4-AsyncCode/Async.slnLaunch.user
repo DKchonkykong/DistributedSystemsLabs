@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Async",
+    "Projects": [
+      {
+        "Path": "Async\\Client.csproj",
+        "Action": "Start",
+        "DebugTarget": "Client"
+      },
+      {
+        "Path": "Server\\Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "Server"
+      }
+    ]
+  }
+]
