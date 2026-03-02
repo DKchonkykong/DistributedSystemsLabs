@@ -19,8 +19,8 @@ namespace Client
                 {
                     byte[] request = SerializeRequest(message, endpoint);
                     await nStream.WriteAsync(request, 0, request.Length);
-
-                    RetrieveResponse(nStream);
+                    //it is now fixed 
+                   await RetrieveResponse(nStream);
                 }
             }
         }
