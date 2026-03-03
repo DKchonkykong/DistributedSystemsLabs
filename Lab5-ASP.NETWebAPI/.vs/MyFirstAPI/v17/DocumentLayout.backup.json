@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adria\\source\\repos\\MyFirstAPI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab5-asp.netwebapi\\myfirstapi\\dataaccess\\mydatacrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\dataaccess\\mydatacrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab5-asp.netwebapi\\myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab5-asp.netwebapi\\myfirstapi\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab5-asp.netwebapi\\myfirstapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\distributedsystemslabs\\lab5-asp.netwebapi\\myfirstapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138FC6D2-7F45-4FFF-ACC0-20333FE9C7FA}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDataCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "RelativeToolTip": "MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:16:00.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\Program.cs",
+              "RelativeToolTip": "MyFirstAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:40:00.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\Controllers\\DataController.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\DataController.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\Controllers\\DataController.cs",
+              "RelativeToolTip": "MyFirstAPI\\Controllers\\DataController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:05:01.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MyFirstAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:03:01.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\DistributedSystemsLabs\\Lab5-ASP.NETWebAPI\\MyFirstAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "MyFirstAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:03:11.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
