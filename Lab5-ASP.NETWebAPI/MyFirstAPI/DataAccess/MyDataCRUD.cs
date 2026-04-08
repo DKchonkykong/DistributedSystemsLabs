@@ -46,7 +46,18 @@ namespace MyFirstAPI.DataAccess
         {
             return Read(id);
         }
+        // added another get id method but it returns something else it gives me the string of error e.g., data 5 
+        // going to try do this a bit later
+        [HttpGet("{id}")]
+        
+        public string Get(string id)
+        {
+            return "Data not found.";
+        }
+        
 
+
+        //done this modified the HTTPGet method to be action
         [HttpGet("[action]")]
         public void CreateData()
         {
