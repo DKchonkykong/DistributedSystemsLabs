@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SignaIRLab5\\SignaIRLab5.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "SignalRClient\\SignalRClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
