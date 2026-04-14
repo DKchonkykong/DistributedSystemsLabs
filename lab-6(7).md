@@ -1,4 +1,4 @@
-# Distributed Systems: Realtime Communication with SignalR
+# Distributed Systems: Entity Framework
 
 
 
@@ -8,8 +8,7 @@
 
 ## SMART Objectives
 
-ADD OBJECTIVES OF THE LAB HERE
-
+How SQL databases interact with entity frameworks
 
 
 ## Completed Tasks
