@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclient\\grpcclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\grpcclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFBCFE1-B9AE-4731-84C3-BFD98F05D588}|GrpcClientLibrary\\GrpcClientLibrary.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclientlibrary\\remotecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFBCFE1-B9AE-4731-84C3-BFD98F05D588}|GrpcClientLibrary\\GrpcClientLibrary.csproj|solutionrelative:grpcclientlibrary\\remotecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclient\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19A401A-D983-49A5-A755-92B974496A73}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFBCFE1-B9AE-4731-84C3-BFD98F05D588}|GrpcClientLibrary\\GrpcClientLibrary.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclientlibrary\\grpcclientlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EAFBCFE1-B9AE-4731-84C3-BFD98F05D588}|GrpcClientLibrary\\GrpcClientLibrary.csproj|solutionrelative:grpcclientlibrary\\grpcclientlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\lab8-grpcservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|solutionrelative:lab8-grpcservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\lab8-grpcservice\\protos\\calc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|solutionrelative:lab8-grpcservice\\protos\\calc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFBCFE1-B9AE-4731-84C3-BFD98F05D588}|GrpcClientLibrary\\GrpcClientLibrary.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\grpcclientlibrary\\protos\\calc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EAFBCFE1-B9AE-4731-84C3-BFD98F05D588}|GrpcClientLibrary\\GrpcClientLibrary.csproj|solutionrelative:grpcclientlibrary\\protos\\calc.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\lab8-grpcservice\\services\\calculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|solutionrelative:lab8-grpcservice\\services\\calculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|c:\\users\\adria\\source\\repos\\lab8-grpcservice\\lab8-grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0BFBDEF-54BA-4715-8DEF-A4F605E127FA}|Lab8-gRPCService\\Lab8-gRPCService.csproj|solutionrelative:lab8-grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrpcClient",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\GrpcClient.csproj",
+              "RelativeDocumentMoniker": "GrpcClient\\GrpcClient.csproj",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\GrpcClient.csproj",
+              "RelativeToolTip": "GrpcClient\\GrpcClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T16:23:00.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GrpcClient\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:18:44.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GrpcClient\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\MainWindow.xaml",
+              "RelativeToolTip": "GrpcClient\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T19:18:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RemoteCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClientLibrary\\RemoteCalculator.cs",
+              "RelativeDocumentMoniker": "GrpcClientLibrary\\RemoteCalculator.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClientLibrary\\RemoteCalculator.cs",
+              "RelativeToolTip": "GrpcClientLibrary\\RemoteCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:58:50.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClient\\AssemblyInfo.cs",
+              "RelativeToolTip": "GrpcClient\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:21:38.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Lab8-gRPCService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Lab8-gRPCService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T19:05:53.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "calc.proto",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Protos\\calc.proto",
+              "RelativeDocumentMoniker": "Lab8-gRPCService\\Protos\\calc.proto",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Protos\\calc.proto",
+              "RelativeToolTip": "Lab8-gRPCService\\Protos\\calc.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-27T17:52:36.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GrpcClientLibrary",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClientLibrary\\GrpcClientLibrary.csproj",
+              "RelativeDocumentMoniker": "GrpcClientLibrary\\GrpcClientLibrary.csproj",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClientLibrary\\GrpcClientLibrary.csproj",
+              "RelativeToolTip": "GrpcClientLibrary\\GrpcClientLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T19:03:41.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "calc.proto",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClientLibrary\\Protos\\calc.proto",
+              "RelativeDocumentMoniker": "GrpcClientLibrary\\Protos\\calc.proto",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\GrpcClientLibrary\\Protos\\calc.proto",
+              "RelativeToolTip": "GrpcClientLibrary\\Protos\\calc.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-27T19:03:07.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalculatorService.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Services\\CalculatorService.cs",
+              "RelativeDocumentMoniker": "Lab8-gRPCService\\Services\\CalculatorService.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Services\\CalculatorService.cs",
+              "RelativeToolTip": "Lab8-gRPCService\\Services\\CalculatorService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:33:45.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Program.cs",
+              "RelativeDocumentMoniker": "Lab8-gRPCService\\Program.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Lab8-gRPCService\\Lab8-gRPCService\\Program.cs",
+              "RelativeToolTip": "Lab8-gRPCService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:44:16.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

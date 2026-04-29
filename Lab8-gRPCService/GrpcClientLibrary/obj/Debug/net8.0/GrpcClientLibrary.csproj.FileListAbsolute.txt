@@ -1,0 +1,12 @@
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\bin\Debug\net8.0\GrpcClientLibrary.deps.json
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\bin\Debug\net8.0\GrpcClientLibrary.dll
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\bin\Debug\net8.0\GrpcClientLibrary.pdb
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.csproj.AssemblyReference.cache
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.AssemblyInfo.cs
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.dll
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\refint\GrpcClientLibrary.dll
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\GrpcClientLibrary.pdb
+C:\Users\adria\source\repos\Lab8-gRPCService\GrpcClientLibrary\obj\Debug\net8.0\ref\GrpcClientLibrary.dll

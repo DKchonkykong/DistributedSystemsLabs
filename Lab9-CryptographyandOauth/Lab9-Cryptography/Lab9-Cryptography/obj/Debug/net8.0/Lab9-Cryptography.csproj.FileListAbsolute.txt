@@ -1,0 +1,14 @@
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\bin\Debug\net8.0\Lab9-Cryptography.exe
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\bin\Debug\net8.0\Lab9-Cryptography.deps.json
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\bin\Debug\net8.0\Lab9-Cryptography.runtimeconfig.json
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\bin\Debug\net8.0\Lab9-Cryptography.dll
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\bin\Debug\net8.0\Lab9-Cryptography.pdb
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.AssemblyInfo.cs
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.dll
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\refint\Lab9-Cryptography.dll
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.pdb
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\Lab9-Cryptography.genruntimeconfig.cache
+C:\Users\adria\source\repos\Lab9-Cryptography\Lab9-Cryptography\obj\Debug\net8.0\ref\Lab9-Cryptography.dll

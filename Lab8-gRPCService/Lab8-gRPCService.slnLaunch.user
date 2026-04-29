@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Lab8-gRPCService\\Lab8-gRPCService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GrpcClient\\GrpcClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

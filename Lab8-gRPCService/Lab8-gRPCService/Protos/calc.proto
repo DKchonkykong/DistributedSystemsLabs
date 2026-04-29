@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "Lab8_gRPCService";
+
+package greet;
+
+// The greeting service definition.
+service Calculator {
+
+  // Sends a greeting
+rpc Add(TwoIntsRequests) returns (IntValueReply);
+rpc Multiply(TwoIntsRequests) returns (IntValueReply);
+rpc Divide(TwoIntsRequests) returns (FloatValueReply);
+
+
+}
+// requests both int and float values 
+message TwoIntsRequests {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+message IntValueReply {
+  int32 value = 1;
+}
+
+message FloatValueReply {
+  float floatA = 1;
+  float floatB = 2;
+  float value = 3;
+}
