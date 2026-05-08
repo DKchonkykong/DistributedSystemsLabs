@@ -1,3 +1,4 @@
+using DistSysAcwServer.DataAccess;
 using DistSysAcwServer.Middleware;
 using DistSysAcwServer.Pipeline;
 using DistSysAcwServer.Shared;
@@ -11,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<SharedError>();
 builder.Services.AddTransient<DistSysAcwServer.Pipeline.ErrorHandlingMiddleware>();
+
+builder.Services.AddScoped<UserDatabaseAccess>(); // registers userdatabase now 
 
 builder.Services.AddControllers(options =>
 {
