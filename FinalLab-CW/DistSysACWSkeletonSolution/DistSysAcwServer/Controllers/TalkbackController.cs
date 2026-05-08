@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using DistSysAcwServer.Middleware;
 using DistSysAcwServer.Shared;
 using Microsoft.AspNetCore.Authorization;
@@ -17,15 +18,13 @@ namespace DistSysAcwServer.Controllers
         /// <param name="context">DbContext set as a service in Startup.cs and dependency injected</param>
         public TalkbackController(Models.UserContext dbcontext, SharedError error) : base(dbcontext, error) { }
 
-
+        // client can send a request, the server process it and then returns response (TASK1 DONE)
         #region TASK1
         //    TODO: add api/talkback/hello response
         [HttpGet]
         public IActionResult Hello()
         {
-            Error.StatusCode = 501;
-            Error.Message = "Not Implemented";
-            return new EmptyResult();
+            return Ok("Hello World");
         }
         #endregion
 
@@ -35,6 +34,17 @@ namespace DistSysAcwServer.Controllers
         //       sort the integers into ascending order
         //       send the integers back as the api/talkback/sort response
         //       conform to the error handling requirements in the spec
+        [HttpGet]
+        public IActionResult Sort([FromQuery] int[] integers)
+        {
+            if (integers == null || integers.Length == 0)
+            {
+                return Ok(System.Array.Empty<int>());
+            }
+
+            return Ok(integers.OrderBy(value => value).ToArray());
+        }
         #endregion
     }
 }
+

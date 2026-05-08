@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.TalkbackController",
+    "Method": "Hello",
+    "RelativePath": "api/Talkback/Hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.TalkbackController",
+    "Method": "Sort",
+    "RelativePath": "api/Talkback/Sort",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "integers",
+        "Type": "System.Int32[]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

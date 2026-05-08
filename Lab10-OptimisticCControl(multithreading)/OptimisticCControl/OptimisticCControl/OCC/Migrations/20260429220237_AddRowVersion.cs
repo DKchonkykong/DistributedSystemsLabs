@@ -1,0 +1,51 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace OOCLab.Migrations
+{
+    /// <inheritdoc />
+    public partial class AddRowVersion : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.AddColumn<byte[]>(
+                name: "RowVersion",
+                table: "People",
+                type: "rowversion",
+                rowVersion: true,
+                nullable: true);
+
+            migrationBuilder.AddColumn<byte[]>(
+                name: "RowVersion",
+                table: "BankAccounts",
+                type: "rowversion",
+                rowVersion: true,
+                nullable: true);
+
+            migrationBuilder.AddColumn<byte[]>(
+                name: "RowVersion",
+                table: "Addresses",
+                type: "rowversion",
+                rowVersion: true,
+                nullable: true);
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropColumn(
+                name: "RowVersion",
+                table: "People");
+
+            migrationBuilder.DropColumn(
+                name: "RowVersion",
+                table: "BankAccounts");
+
+            migrationBuilder.DropColumn(
+                name: "RowVersion",
+                table: "Addresses");
+        }
+    }
+}

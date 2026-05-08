@@ -1,0 +1,15 @@
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.exe
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.deps.json
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.runtimeconfig.json
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.dll
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.pdb
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.AssemblyInfoInputs.cache
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.AssemblyInfo.cs
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.csproj.CoreCompileInputs.cache
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.sourcelink.json
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.dll
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\refint\DistSysAcwClient.dll
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.pdb
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.genruntimeconfig.cache
+C:\Users\adria\Documents\GitHub\DistributedSystemsLabs\FinalLab-CW\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\ref\DistSysAcwClient.dll
