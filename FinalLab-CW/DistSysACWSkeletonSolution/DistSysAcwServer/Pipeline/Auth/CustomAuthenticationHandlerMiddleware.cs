@@ -42,19 +42,58 @@ namespace DistSysAcwServer.Auth
         /// <summary>
         /// Authenticates the client by API Key
         /// </summary>
+        /// now works authentication code (TASK 5 DONE)
         protected override Task<AuthenticateResult> HandleAuthenticateAsync()
         {
             #region Task5
             // TODO:  Using the ‘ApiKey’ header, authenticate (or do not authenticate) the client
             #endregion
 
-            return Task.FromResult(AuthenticateResult.Fail(new AuthenticationFailureException("HandleAuthenticateAsync is not yet fully implemented"))); // Placeholder
+            if (!Request.Headers.TryGetValue("ApiKey", out var apiKeyValues))
+            {
+                return Task.FromResult(AuthenticateResult.Fail("No ApiKey header found"));
+            }
+
+
+            var dbAccess = new DistSysAcwServer.DataAccess.UserDatabaseAccess(DbContext);
+            
+                string? apiKey = apiKeyValues.FirstOrDefault();
+
+            if (string.IsNullOrWhiteSpace(apiKey))
+            {
+                Error.StatusCode = StatusCodes.Status401Unauthorized;
+                Error.Message = "Unauthorized. Check ApiKey in Header is correct.";
+                return Task.FromResult(AuthenticateResult.Fail("Invalid ApiKey"));
+            }
+            User user = dbAccess.GetUserByApiKey(apiKey);
+
+            if (user == null)
+            {
+                Error.StatusCode = StatusCodes.Status401Unauthorized;
+                Error.Message = "Unauthorized. Check ApiKey in Header is correct.";
+                return Task.FromResult(AuthenticateResult.Fail("Invalid ApiKey"));
+            }
+
+            var claims = new[]
+    {
+        new Claim(ClaimTypes.Name, user.UserName),
+        new Claim(ClaimTypes.Role, user.Role)
+    };
+
+            // Step 4: Build identity, principal and ticket
+            var identity = new ClaimsIdentity(claims, "ApiKey");
+            var principal = new ClaimsPrincipal(identity);
+            var ticket = new AuthenticationTicket(principal, this.Scheme.Name);
+
+            return Task.FromResult(AuthenticateResult.Success(ticket));
         }
 
+
+        // now returns the correct 401 message code
         protected override Task HandleChallengeAsync(AuthenticationProperties properties)
         {
-            Error.StatusCode = StatusCodes.Status501NotImplemented;
-            Error.Message = "Task 5 incomplete";
+            Error.StatusCode = StatusCodes.Status401Unauthorized;
+            Error.Message = "Unauthorized. Check ApiKey in Header is correct.";
             return Task.CompletedTask;
         }
     }

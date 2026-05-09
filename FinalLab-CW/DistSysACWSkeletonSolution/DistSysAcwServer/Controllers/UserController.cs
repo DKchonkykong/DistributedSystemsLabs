@@ -1,6 +1,7 @@
 ﻿using DistSysAcwServer.DataAccess;
 using DistSysAcwServer.Models;
 using DistSysAcwServer.Shared;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DistSysAcwServer.Controllers
@@ -13,6 +14,7 @@ namespace DistSysAcwServer.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize] //added now should authorize
 
     public class UserController : BaseController
     {
