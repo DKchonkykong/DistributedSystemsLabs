@@ -7,32 +7,40 @@
       "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\pipeline\\auth\\customauthenticationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\pipeline\\auth\\customauthenticationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\pipeline\\auth\\customauthorizationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\pipeline\\auth\\customauthorizationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\dataaccess\\userdatabaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\dataaccess\\userdatabaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\migrations\\20260508185226_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\migrations\\20260508185226_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\pipeline\\auth\\customauthorizationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\pipeline\\auth\\customauthorizationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\pipeline\\auth\\customauthenticationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\pipeline\\auth\\customauthenticationhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\controllers\\talkbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\controllers\\talkbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\migrations\\20260508185226_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\migrations\\20260508185226_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\adria\\documents\\github\\distributedsystemslabs\\finallab-cw\\distsysacwskeletonsolution\\distsysacwserver\\pipeline\\errorhandling\\actionerrorhandlingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,86 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomAuthenticationHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
-              "RelativeToolTip": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T20:47:48.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\UserController.cs",
-              "RelativeToolTip": "DistSysAcwServer\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAwAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T19:41:42.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomAuthorizationHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
-              "RelativeToolTip": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T20:47:50.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDatabaseAccess.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
-              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
-              "RelativeToolTip": "DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAUwE0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T19:12:49.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Program.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\Program.cs",
-              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Program.cs",
-              "RelativeToolTip": "DistSysAcwServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T20:44:40.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20260508185226_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
-              "RelativeToolTip": "DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T18:52:27.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Models\\User.cs",
               "RelativeDocumentMoniker": "DistSysAcwServer\\Models\\User.cs",
@@ -141,19 +74,116 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDatabaseAccess.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
+              "RelativeToolTip": "DistSysAcwServer\\DataAccess\\UserDatabaseAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:12:49.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwA4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:41:42.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Models\\UserContext.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Models\\UserContext.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Models\\UserContext.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Models\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:19:10.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomAuthenticationHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthenticationHandlerMiddleware.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv1sAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:47:48.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomAuthorizationHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Pipeline\\Auth\\CustomAuthorizationHandlerMiddleware.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA2wCsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:47:50.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Program.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Program.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Program.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:44:40.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:04:59.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260508185226_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Migrations\\20260508185226_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:52:27.434Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "TalkbackController.cs",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\TalkbackController.cs",
               "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\TalkbackController.cs",
               "ToolTip": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\TalkbackController.cs",
               "RelativeToolTip": "DistSysAcwServer\\Controllers\\TalkbackController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-01T20:46:55.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ActionErrorHandlingFilter.cs",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Pipeline\\ErrorHandling\\ActionErrorHandlingFilter.cs",
               "RelativeDocumentMoniker": "DistSysAcwServer\\Pipeline\\ErrorHandling\\ActionErrorHandlingFilter.cs",
@@ -165,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adria\\Documents\\GitHub\\DistributedSystemsLabs\\FinalLab-CW\\DistSysACWSkeletonSolution\\DistSysAcwClient\\Program.cs",
               "RelativeDocumentMoniker": "DistSysAcwClient\\Program.cs",

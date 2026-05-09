@@ -33,12 +33,24 @@ namespace DistSysAcwServer.Auth
         /// <param name="requirement">Authorisation requirements</param>
         protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, RolesAuthorizationRequirement requirement)
         {
-            // requirement.AllowedRoles contains the roles that are allowed to access the action
-            // context.User contains the user trying to access the action
-            // context.Succeed(requirement) is used to succeed the requirement
-            // context.Fail() is used to fail the requirement
+            bool isAllowed = requirement.AllowedRoles.Any(role => context.User.IsInRole(role));
 
-            context.Fail();
+            if (isAllowed)
+            {
+                context.Succeed(requirement);
+            }
+            else
+            {
+                bool adminOnly = requirement.AllowedRoles.Count() == 1 && requirement.AllowedRoles.Contains("Admin");
+
+                if (adminOnly)
+                {
+                    Error.StatusCode = StatusCodes.Status403Forbidden;
+                    Error.Message = "Forbidden. Admin access only.";
+                }
+
+                context.Fail();
+            }
 
             return Task.CompletedTask;
         }

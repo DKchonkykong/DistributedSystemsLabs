@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "DistSysAcwServer.Controllers.UserController",
+    "Method": "ChangeRole",
+    "RelativePath": "api/User/ChangeRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DistSysAcwServer.Controllers.ChangeRoleRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.UserController",
     "Method": "PostNew",
     "RelativePath": "api/User/new",
     "HttpMethod": "POST",
@@ -46,6 +62,22 @@
     "Method": "GetNew",
     "RelativePath": "api/User/New",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.UserController",
+    "Method": "RemoveUser",
+    "RelativePath": "api/User/RemoveUser",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
