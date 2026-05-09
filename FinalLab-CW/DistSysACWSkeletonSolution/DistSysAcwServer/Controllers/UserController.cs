@@ -21,8 +21,6 @@ namespace DistSysAcwServer.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
-    //[Authorize]
-    //[Authorize(Roles = "Admin, User")]
     public class UserController : BaseController
     {
         private readonly UserDatabaseAccess _dbAccess;
@@ -59,7 +57,7 @@ namespace DistSysAcwServer.Controllers
                 }
             
             if (request.Role != "User" && request.Role != "Admin")
-                { return BadRequest("NOT DONE: Role does not exist."); 
+                { return BadRequest("NOT DONE: Role does not exist"); 
                 }
 
                 bool changed = _dbAccess.ChangeUserRole(request.Username, request.Role);
