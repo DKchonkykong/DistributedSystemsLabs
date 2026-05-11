@@ -52,6 +52,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "Sign",
+    "RelativePath": "api/Protected/Sign",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DistSysAcwServer.Controllers.TalkbackController",
     "Method": "Hello",
     "RelativePath": "api/Talkback/Hello",

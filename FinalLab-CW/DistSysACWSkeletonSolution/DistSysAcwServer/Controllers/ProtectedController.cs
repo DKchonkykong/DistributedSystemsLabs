@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using DistSysAcwServer.Security;
 
 namespace DistSysAcwServer.Controllers
 {
@@ -72,5 +73,28 @@ namespace DistSysAcwServer.Controllers
             string publicKey = RSAKeys.Provider.ToXmlString(false);
             return Ok(publicKey);
         }
+
+        // task 12 - this is about adding sign so it can work with a private RSA key and client can verify it with the public key 
+        [HttpGet("Sign")]
+        [Authorize(Roles = "Admin, User")]
+        public IActionResult Sign([FromQuery] string? message)
+        {
+            if (string.IsNullOrEmpty(message))
+            {
+                return BadRequest("Bad Request");
+            }
+
+            byte[] messageBytes = Encoding.ASCII.GetBytes(message);
+
+            byte[] signatureBytes = RSAKeys.Provider.SignData(
+                messageBytes,
+                CryptoConfig.MapNameToOID("SHA1")
+            );
+
+            string signatureHex = BitConverter.ToString(signatureBytes);
+
+            return Ok(signatureHex);
+        }
+
     }
 }

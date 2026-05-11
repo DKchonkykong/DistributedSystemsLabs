@@ -38,6 +38,15 @@ async Task<string> HandleInput(string input)
 {
     string[] parts = input.Split(' ', 4);
     string command = parts.Length >= 2 ? $"{parts[0]} {parts[1]}" : input;
+    //lazy version idc
+    if (parts.Length >= 3 &&
+        parts[0].Equals("protected", StringComparison.OrdinalIgnoreCase) &&
+        parts[1].Equals("get", StringComparison.OrdinalIgnoreCase) &&
+        parts[2].Equals("publickey", StringComparison.OrdinalIgnoreCase))
+    {
+        command = "protected get publickey";
+    }
+
     //calls methods need to build them next 
     return command.ToLower() switch
     {
@@ -51,9 +60,9 @@ async Task<string> HandleInput(string input)
         "protected hello" => await ProtectedHello(),
         "protected sha1" => await ProtectedSHA1(parts),
         "protected sha256" => await ProtectedSHA256(parts),
-        "protected getpublickey" => await ProtectedGetPublicKey(),
+        "protected get publickey" => await ProtectedGetPublicKey(),
+        "protected sign" => await ProtectedSign(parts),
         _ => "Unkown Command"
-        //"protected sign" => await ProtectedSig(parts),
         //"protected mashify" => await ProtectedMashify(parts),_=> "Unkown Command"
     };
 
@@ -207,5 +216,52 @@ async Task<string> ProtectedGetPublicKey()
     }
 
     return "Couldn't Get the Public Key";
+}
+
+async Task<string> ProtectedSign(string[] parts)
+{
+    if (storedApiKey == null)
+        return "You need to do a User Post or User Set first";
+
+    if (storedPublicKey == null)
+        return "Client doesn't yet have the public key";
+
+    if (parts.Length < 3)
+        return "No message provided";
+
+    string message = parts[2];
+
+    client.DefaultRequestHeaders.Remove("ApiKey");
+    client.DefaultRequestHeaders.Add("ApiKey", storedApiKey);
+
+    string encodedMessage = Uri.EscapeDataString(message);
+
+    HttpResponseMessage response = await client.GetAsync(
+        $"{baseUrl}/api/protected/sign?message={encodedMessage}");
+
+    if (!response.IsSuccessStatusCode)
+        return "Message was not successfully signed";
+
+    string signatureHex = await response.Content.ReadAsStringAsync();
+    signatureHex = signatureHex.Trim('"');
+
+    byte[] signatureBytes = signatureHex
+        .Split('-')
+        .Select(x => Convert.ToByte(x, 16))
+        .ToArray();
+
+    byte[] messageBytes = System.Text.Encoding.ASCII.GetBytes(message);
+
+    using RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
+    rsa.FromXmlString(storedPublicKey);
+
+    bool valid = rsa.VerifyData(
+        messageBytes,
+        CryptoConfig.MapNameToOID("SHA1"),
+        signatureBytes);
+
+    return valid
+        ? "Message was successfully signed"
+        : "Message was not successfully signed";
 }
 #endregion
