@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "GetPublicKey",
+    "RelativePath": "api/Protected/GetPublicKey",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
     "Method": "Hello",
     "RelativePath": "api/Protected/Hello",
     "HttpMethod": "GET",

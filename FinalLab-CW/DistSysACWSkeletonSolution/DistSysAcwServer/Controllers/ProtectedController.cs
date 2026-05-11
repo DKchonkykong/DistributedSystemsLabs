@@ -1,6 +1,7 @@
 ﻿//TASK 9 - this is for using SHA1 and then SHA256
 
 using DistSysAcwServer.Models;
+using DistSysAcwServer.Security;
 using DistSysAcwServer.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,13 +9,11 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-
 namespace DistSysAcwServer.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     [Authorize(Roles = "Admin,User")]
-
     public class ProtectedController : BaseController
     {
         public ProtectedController(UserContext dbcontext, SharedError error) : base(dbcontext, error)
@@ -64,8 +63,14 @@ namespace DistSysAcwServer.Controllers
             string hashString = Convert.ToHexString(hashBytes);
 
             return Ok(hashString);
+        }
 
-
+        [Authorize(Roles = "Admin,User")]
+        [HttpGet("GetPublicKey")]
+        public IActionResult GetPublicKey()
+        {
+            string publicKey = RSAKeys.Provider.ToXmlString(false);
+            return Ok(publicKey);
         }
     }
 }

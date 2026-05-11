@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 string baseUrl = "http://localhost:53415";      
 string? storedUsername = null;
 string? storedApiKey = null;
+string? storedPublicKey = null;
 HttpClient client = new HttpClient();
 
 Console.WriteLine("Hello. What would you like to do?");
@@ -50,8 +51,8 @@ async Task<string> HandleInput(string input)
         "protected hello" => await ProtectedHello(),
         "protected sha1" => await ProtectedSHA1(parts),
         "protected sha256" => await ProtectedSHA256(parts),
+        "protected getpublickey" => await ProtectedGetPublicKey(),
         _ => "Unkown Command"
-        //"protected getpublickey" => await ProtectedGetPublicKey(),
         //"protected sign" => await ProtectedSig(parts),
         //"protected mashify" => await ProtectedMashify(parts),_=> "Unkown Command"
     };
@@ -188,5 +189,23 @@ async Task<string> ProtectedSHA256(string[] parts)
     return await response.Content.ReadAsStringAsync();
 }
 
+async Task<string> ProtectedGetPublicKey()
+{
+    if (storedApiKey == null)
+        return "You need to do a User Post or User Set first";
 
+    client.DefaultRequestHeaders.Remove("ApiKey");
+    client.DefaultRequestHeaders.Add("ApiKey", storedApiKey);
+
+    HttpResponseMessage response =
+        await client.GetAsync($"{baseUrl}/api/protected/getpublickey");
+
+    if (response.IsSuccessStatusCode)
+    {
+        storedPublicKey = await response.Content.ReadAsStringAsync();
+        return "Got Public Key";
+    }
+
+    return "Couldn't Get the Public Key";
+}
 #endregion
