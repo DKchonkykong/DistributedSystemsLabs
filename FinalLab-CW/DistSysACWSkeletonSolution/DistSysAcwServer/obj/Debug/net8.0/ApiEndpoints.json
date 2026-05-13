@@ -21,6 +21,22 @@
   },
   {
     "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "Mashify",
+    "RelativePath": "api/Protected/Mashify",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DistSysAcwServer.Controllers.ProtectedController\u002BMashifyRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
     "Method": "SHA1Hash",
     "RelativePath": "api/Protected/SHA1",
     "HttpMethod": "GET",

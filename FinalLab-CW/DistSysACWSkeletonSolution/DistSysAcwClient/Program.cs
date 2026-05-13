@@ -64,8 +64,7 @@ async Task<string> HandleInput(string input)
         "protected sha256" => await ProtectedSHA256(parts),
         "protected get publickey" => await ProtectedGetPublicKey(),
         "protected sign" => await ProtectedSign(parts),
-        _ => "Unkown Command"
-        //"protected mashify" => await ProtectedMashify(parts),_=> "Unkown Command"
+        "protected mashify" => await ProtectedMashify(parts),_=> "Unkown Command"
     };
 
 }
@@ -178,7 +177,8 @@ async Task<string> ProtectedSHA1(string[] parts)
         return "You need to do a User Post or User Set first";
     if (parts.Length < 3) return "No message provided";
     SetApiKeyHeader();
-    string message = Uri.EscapeDataString(parts[2]);
+    string message = string.Join(" ", parts.Skip(2));
+    
     HttpResponseMessage response = await client.GetAsync($"{baseUrl}/api/protected/sha1?message={message}");
     return await response.Content.ReadAsStringAsync();
 }
@@ -194,7 +194,7 @@ async Task<string> ProtectedSHA256(string[] parts)
     if (parts.Length < 3) return "No message provided";
     client.DefaultRequestHeaders.Remove("ApiKey");
     client.DefaultRequestHeaders.Add("ApiKey", storedApiKey);
-    string message = Uri.EscapeDataString(parts[2]);
+    string message = string.Join(" ", parts.Skip(2));
     HttpResponseMessage response = await client.GetAsync(
         $"{baseUrl}/api/protected/sha256?message={message}");
     return await response.Content.ReadAsStringAsync();
@@ -231,7 +231,7 @@ async Task<string> ProtectedSign(string[] parts)
     if (parts.Length < 3)
         return "No message provided";
 
-    string message = parts[2];
+    string message = string.Join(" ", parts.Skip(2));
 
     client.DefaultRequestHeaders.Remove("ApiKey");
     client.DefaultRequestHeaders.Add("ApiKey", storedApiKey);
@@ -266,4 +266,86 @@ async Task<string> ProtectedSign(string[] parts)
         ? "Message was successfully signed"
         : "Message was not successfully signed";
 }
+
+static string BytesToHex(byte[] bytes)
+{
+    return BitConverter.ToString(bytes);
+}
+
+static byte[] HexToBytes(string hex)
+{
+    return hex.Split('-').Select(x => Convert.ToByte(x, 16)).ToArray();
+}
+
+async Task<string> ProtectedMashify(string[] parts)
+{
+    if (storedApiKey == null)
+        return "You need to do a User Post or User Set first";
+
+    if (storedPublicKey == null)
+        return "Client doesn't yet have the public key";
+
+    if (parts.Length < 3)
+        return "No message provided";
+
+    string message = string.Join(" ", parts.Skip(2));
+    try
+    {
+        using RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
+        rsa.FromXmlString(storedPublicKey);
+
+        using Aes aes = Aes.Create();
+        aes.GenerateKey();
+        aes.GenerateIV();
+
+        byte[] encryptedMessage = rsa.Encrypt(
+            System.Text.Encoding.ASCII.GetBytes(message),
+            RSAEncryptionPadding.OaepSHA1);
+
+        byte[] encryptedKey = rsa.Encrypt(aes.Key, RSAEncryptionPadding.OaepSHA1);
+        byte[] encryptedIV = rsa.Encrypt(aes.IV, RSAEncryptionPadding.OaepSHA1);
+
+        var body = new
+        {
+            EncryptedString = BytesToHex(encryptedMessage),
+            EncryptedSymKey = BytesToHex(encryptedKey),
+            EncryptedIV = BytesToHex(encryptedIV)
+        };
+
+        string json = System.Text.Json.JsonSerializer.Serialize(body);
+
+        HttpRequestMessage request = new HttpRequestMessage(
+            HttpMethod.Get,
+            $"{baseUrl}/api/protected/mashify");
+
+        request.Content = new StringContent(
+            json,
+            System.Text.Encoding.UTF8,
+            "application/json");
+
+        request.Headers.Add("ApiKey", storedApiKey);
+
+        HttpResponseMessage response = await client.SendAsync(request);
+
+        if (!response.IsSuccessStatusCode)
+            return "An error occurred!";
+
+        string encryptedResultHex = await response.Content.ReadAsStringAsync();
+        encryptedResultHex = encryptedResultHex.Trim('"');
+
+        byte[] encryptedResultBytes = HexToBytes(encryptedResultHex);
+
+        using MemoryStream ms = new MemoryStream(encryptedResultBytes);
+        using CryptoStream cs = new CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Read);
+        using StreamReader sr = new StreamReader(cs);
+
+        return sr.ReadToEnd();
+    }
+    catch
+    {
+        return "An error occurred!";
+    }
+}
+
+
 #endregion
