@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 #region Task 10 and beyond
 
-string baseUrl = "http://localhost:53415";      
+string baseUrl = "http://localhost:53415"; //url for uni testing: http://distsysacwserver.net.dcs.hull.ac.uk/6484145      
 string? storedUsername = null;
 string? storedApiKey = null;
 string? storedPublicKey = null;
