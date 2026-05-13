@@ -38,7 +38,9 @@ async Task<string> HandleInput(string input)
 {
     string[] parts = input.Split(' ', 4);
     string command = parts.Length >= 2 ? $"{parts[0]} {parts[1]}" : input;
+    
     //lazy version idc
+
     if (parts.Length >= 3 &&
         parts[0].Equals("protected", StringComparison.OrdinalIgnoreCase) &&
         parts[1].Equals("get", StringComparison.OrdinalIgnoreCase) &&

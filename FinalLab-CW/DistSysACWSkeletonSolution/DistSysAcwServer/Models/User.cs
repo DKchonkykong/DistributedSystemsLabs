@@ -18,6 +18,10 @@ namespace DistSysAcwServer.Models
         public string Role { get; set; }
         public User() { }
 
+
+        public virtual ICollection<Log> Logs { get; set; } = new List<Log>();
+
+
         #region Task2
         // TODO: Create a User Class for use with Entity Framework
         // Note that you can use the [key] attribute

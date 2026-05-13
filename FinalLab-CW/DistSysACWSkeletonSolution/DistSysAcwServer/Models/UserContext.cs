@@ -7,9 +7,8 @@ namespace DistSysAcwServer.Models
         public UserContext() : base() { }
 
         public required DbSet<User> Users { get; set; }
-
-        //TODO: Task13
-
+        
+        public DbSet<Log> Logs { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //If you change this connection string during development, it must be replaced before submission

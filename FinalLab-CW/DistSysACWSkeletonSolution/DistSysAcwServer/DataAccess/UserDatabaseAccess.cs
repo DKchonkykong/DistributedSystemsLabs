@@ -53,7 +53,22 @@ namespace DistSysAcwServer.DataAccess
 
             return user;
         }
+        //part of task 13 now adds user logs to database
+        public void AddLog(string apiKey , string logString)
+        {
+            User? user = GetUserByApiKey(apiKey);
+            
+            if (user == null)
+            { 
+                return;
+            }
 
+            Log log = new Log(logString, apiKey);
+            
+                user.Logs.Add(log);
+                _context.SaveChanges();
+            
+        }
         public bool DeleteUserByUserName(string username)
         {
             User? user = GetUserByUserName(username);
